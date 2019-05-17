@@ -3,15 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=no">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="static/css/reset.css">
     <title>wyyx_vue</title>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but wyyx_vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app"></div>
+    	<script type="text/javascript">
+        // rem适配
+        !(function () {
+          let width = document.documentElement.clientWidth;
+          const styleNode = document.createElement('style');
+          styleNode.innerHTML = 'html{font-size: ' + width / 10 + 'px  !important;}';
+          document.head.appendChild(styleNode);
+        })();
+    		</script>
+
     <!-- built files will be auto injected -->
   </body>
 </html>
