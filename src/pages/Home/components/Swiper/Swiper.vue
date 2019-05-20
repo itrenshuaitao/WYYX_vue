@@ -77,7 +77,9 @@
 <style lang="stylus" rel="stylesheet/stylus">
   @import "../../../../common/stylus/mixins.styl";
   .page
+    position relative
     .swiper-container
+      padding-top 149px
       width 750px
       height 370px
       img

@@ -4,8 +4,11 @@ import router from './router'
 import store from './store'
 import './mock/mock-server'
 
-Vue.config.productionTip = false
 
+import navHeader from './pages/Home/components/navHaader/navHaader'
+
+Vue.config.productionTip = false
+Vue.component('navHeader',navHeader)
 new Vue({
   router,
   store,

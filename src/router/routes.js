@@ -5,6 +5,7 @@
  */
 import Home from "../pages/Home/Home";                //主页
 import Classify from "../pages/Classify/Classify";    //分类
+import ClassifyList from "../pages/Classify/components/ClassifyList";    //分类
 import General from "../pages/General/General";       //识物
 import ShopCart from "../pages/ShopCart/ShopCart";    //购物车
 import personage from "../pages/personage/personage"; //个人
@@ -16,7 +17,17 @@ export default [
   },
   {
     path:'/classify',
-    component:Classify
+    component:Classify,
+    children: [
+      {
+        path:'/classify/ClassifyList',
+        component:ClassifyList,
+      },
+      {
+        path:'',
+        redirect: '/classify/ClassifyList'
+      }
+    ]
   },
   {
     path:'/general',

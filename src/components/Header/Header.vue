@@ -83,6 +83,9 @@
   .m-indexHd
     width 100%
     height 150px
+    position fixed
+    top 0
+    z-index 10
     background-color #fff
     .line
       position relative

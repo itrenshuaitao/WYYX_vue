@@ -26,8 +26,9 @@
     font-size 24px
     width 690px
     height 72px
-    margin 0 30px
+    padding  0 30px
     display flex
+    background-color #fff
     align-items center
     ul
       display flex

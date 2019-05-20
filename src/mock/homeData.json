@@ -38,49 +38,62 @@
         "picUrl": "http://yanxuan.nosdn.127.net/d916591adea776351e084016335e5820.png",
         "schemeUrl": "http://m.you.163.com/item/list?categoryId=1010000&style=pd",
         "text": "美食酒水",
-        "textColor": "333333"
+        "textColor": "333333",
+        "imgURL": "https://yanxuan.nosdn.127.net/bbd83d44d6d8fc61031256143ad37c93.png?imageView&quality=65&thumbnail=200x200"
       },
       {
         "picUrl": "http://yanxuan.nosdn.127.net/6c3bd9d885c818b1f73e497335a68b47.png",
         "schemeUrl": "http://m.you.163.com/item/list?categoryId=1043000&style=pd",
         "text": "个护清洁",
-        "textColor": "333333"
+        "textColor": "333333",
+        "imgURL": "https://yanxuan.nosdn.127.net/d84c728c164a77a8c5f0ca153d21fe69.png?imageView&quality=65&thumbnail=200x200"
       },
       {
         "picUrl": "http://yanxuan.nosdn.127.net/63682bd2df06963251b2715e20f98a75.png",
         "schemeUrl": "http://m.you.163.com/item/list?categoryId=1011000&style=pd",
         "text": "限时购",
-        "textColor": "333333"
+        "textColor": "333333",
+        "imgURL":"https://yanxuan.nosdn.127.net/e37656ecad9a2494f456e222fe7800a2.png?imageView&quality=65&thumbnail=200x200"
       },
       {
         "picUrl": "http://yanxuan.nosdn.127.net/559d2a240ec20b096590a902217009ff.png",
         "schemeUrl": "http://m.you.163.com/item/list?categoryId=1005002&style=pd",
         "text": "母婴亲子",
-        "textColor": "333333"
+        "textColor": "333333",
+        "imgURL":"https://yanxuan.nosdn.127.net/d9376c059ce15a774199e2cedc5a8d63.png?imageView&quality=65&thumbnail=200x200"
+
       },
       {
         "picUrl": "http://yanxuan.nosdn.127.net/5c088559ebcc3f0ffcda663f04dfbeb2.png",
         "schemeUrl": "http://m.you.163.com/item/list?categoryId=1013001&style=pd",
         "text": "运动旅行",
-        "textColor": "333333"
+        "textColor": "333333",
+        "imgURL":"https://yanxuan.nosdn.127.net/cf86ce7b36cc90f5c9b1cbbc5eafd737.png?imageView&quality=65&thumbnail=200x200"
+
       },
       {
         "picUrl": "http://yanxuan.nosdn.127.net/47e953a95e4378907b131205ce3cbc45.png",
         "schemeUrl": "http://m.you.163.com/item/list?categoryId=1005001&style=pd",
         "text": "数码家电",
-        "textColor": "333333"
+        "textColor": "333333",
+        "imgURL":"https://yanxuan.nosdn.127.net/de44bd49514fcfe4a915cbd901a94016.png?imageView&quality=65&thumbnail=200x200"
+
       },
       {
         "picUrl": "http://yanxuan.nosdn.127.net/fbca8e1f2948f0c09fc7672c2c125384.png",
         "schemeUrl": "http://m.you.163.com/item/list?categoryId=1019000&style=pd",
         "text": "全球特色",
-        "textColor": "333333"
+        "textColor": "333333",
+        "imgURL":"https://yanxuan.nosdn.127.net/d391ff6177d8e9a6b29356c15ba97713.png?imageView&quality=65&thumbnail=200x200"
+
       },
       {
         "picUrl": "http://yanxuan.nosdn.127.net/861a521a6f53e3399205f18daa23cddc.gif",
         "schemeUrl": "http://m.you.163.com/item/list?categoryId=1065000&style=pd",
         "text": "超级会员",
-        "textColor": "333333"
+        "textColor": "333333",
+        "imgURL":"https://yanxuan.nosdn.127.net/72eb76506fb94adce584c74b930a6a92.png?imageView&quality=65&thumbnail=200x200"
+
       }
     ],
     "selectedColor": "ffffffff"
@@ -713,7 +726,7 @@
           "materialType": "商品id",
           "materialId": "49640591",
           "itemId": "3419071",
-          "materialName": "严选X颐和园 联名款2019年历本",
+          "materialName": "联名款2019年历本",
           "taskType": 1,
           "crmUserGroupName": "无分组",
           "resourcesId": 1,
@@ -732,7 +745,7 @@
       "primaryPicUrl": "http://yanxuan.nosdn.127.net/6ca5da68fa4e87086126f9a124442da9.jpg",
       "pieceUnitDesc": "件",
       "resourcesId": 0,
-      "name": "严选X颐和园 联名款2019年历本",
+      "name": "联名款2019年历本",
       "productPlace": "",
       "counterPrice": 58,
       "couponPrice": 0,
@@ -928,7 +941,7 @@
       "primaryPicUrl": "http://yanxuan.nosdn.127.net/5b874370ef8f63ee41865bbee4de2890.jpg",
       "pieceUnitDesc": "件",
       "resourcesId": 0,
-      "name": "网易智造PTC家用智能暖风机（焕新版）",
+      "name": "网易智造PTC家用智能暖风机",
       "productPlace": "",
       "counterPrice": 499,
       "couponPrice": 0,
@@ -1164,7 +1177,7 @@
       "primaryPicUrl": "http://yanxuan.nosdn.127.net/489d9ee22b95c14044592dcc43ae3aa2.png",
       "pieceUnitDesc": "件",
       "resourcesId": 0,
-      "name": "30包 谷风一木软抽面巾纸囤货装",
+      "name": "谷风一木软抽面巾纸囤货装",
       "productPlace": "",
       "counterPrice": 75,
       "couponPrice": 0,
