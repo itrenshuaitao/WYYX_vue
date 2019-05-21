@@ -99,7 +99,8 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
-
+  *
+    list-style none
   .homeCenter
     margin-bottom 100px
     background #eee

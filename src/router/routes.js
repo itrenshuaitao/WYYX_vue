@@ -4,9 +4,22 @@
               只有当请求对应的path时, 才会执行函数获取组件模块代码
  */
 import Home from "../pages/Home/Home";                //主页
-import Classify from "../pages/Classify/Classify";    //分类
-import ClassifyList from "../pages/Classify/components/ClassifyList";    //分类
+import CategoryList from "../pages/CategoryList/CategoryList";    //分类
+import Category from '../pages/CategoryList/Category/Category.vue';   //分类
 import General from "../pages/General/General";       //识物
+
+
+import bask from "../pages/General/components/bask/bask";       //晒单
+import developer from "../pages/General/components/developer/developer";       //开发者日记
+import GoodStuff from "../pages/General/components/GoodStuff/GoodStuff";       //好货内部价
+import HOME from "../pages/General/components/HOME/HOME";       //HOME
+import intelligent from "../pages/General/components/intelligent/intelligent";       //达人
+import Recommend from "../pages/General/components/Recommend/Recommend";       //推荐
+import rep from "../pages/General/components/rep/rep";       //回购榜
+import update from "../pages/General/components/update/update";       //上新
+
+
+
 import ShopCart from "../pages/ShopCart/ShopCart";    //购物车
 import personage from "../pages/personage/personage"; //个人
 
@@ -16,22 +29,39 @@ export default [
     component:Home
   },
   {
-    path:'/classify',
-    component:Classify,
+    path: '/classify',
+    component: CategoryList,
     children: [
       {
-        path:'/classify/ClassifyList',
-        component:ClassifyList,
+        path: '/categorylist/category',
+        component: Category,
+        meta: {
+          isShow: true
+        }
       },
       {
-        path:'',
-        redirect: '/classify/ClassifyList'
+        path: '',
+        redirect: '/categorylist/category'
       }
     ]
   },
   {
     path:'/general',
-    component:General
+    component:General,
+    children: [
+      {path:'/general/bask',component:bask},
+      {path:'/general/developer',component:developer},
+      {path:'/general/goodstuff',component:GoodStuff},
+      {path:'/general/home',component:HOME},
+      {path:'/general/intelligent',component:intelligent},
+      {path:'/general/recommend',component:Recommend},
+      {path:'/general/rep',component:rep},
+      {path:'/general/update',component:update},
+      {
+        path:'/',
+        redirect:'/general/recommend'
+      }
+    ]
   },
   {
     path:'/shopcart',

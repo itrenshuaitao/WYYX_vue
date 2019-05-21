@@ -54,7 +54,6 @@ const mutations = {
 const actions = {
   async getHomeData({commit}) {
     const result = await reqHomeData()
-    console.log('xxx')
     if (result.code === 0) {
       commit(RECEIVE_NAVLIST, result.data.kingKongModule.kingKongList)
       commit(RECEIVE_POLICYDESCLIST, result.data.policyDescList)

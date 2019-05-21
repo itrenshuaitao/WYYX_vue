@@ -1,13 +1,13 @@
 <template>
-  <div>12
-    <router-view />
+  <div>
+    好货内部价
   </div>
 
 </template>
 
 <script type="text/ecmascript-6">
   export default {
-    name: "Classify"
+    name: "GoodStuff"
   }
 </script>
 

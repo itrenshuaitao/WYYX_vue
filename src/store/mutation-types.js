@@ -11,3 +11,13 @@ export const NEWITEMLIST = 'newitemlist'
 export const POPULARITEMLIST = 'popularItemList'
 export const TOPICLIST = 'topicList'
 export const CATEGORYMODULE = 'categoryModule'
+export const RECEIVE_CATEGORIES = 'receive_categories'
+export const UPDATE_INDEX = '_index';
+
+
+
+export const RECEIVE_ORDERSHOWTOP = 'receive_ordershowtop';
+export const RECEIVE_RECOMMENDTABS = 'receive_recommendtabs';
+export const RECEIVE_RECOMMENDS = 'receive_recommends';
+
+

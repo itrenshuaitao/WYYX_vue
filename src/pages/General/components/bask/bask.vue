@@ -1,13 +1,13 @@
 <template>
   <div>
-    1234
+    晒单
   </div>
 
 </template>
 
 <script type="text/ecmascript-6">
   export default {
-    name: "ClassifyList"
+    name: "bask"
   }
 </script>
 

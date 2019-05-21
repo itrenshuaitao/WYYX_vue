@@ -4,6 +4,8 @@ import actions from './actions';
 import getters from './getters';
 import mutations from './mutations';
 import home from './modules/home'
+import categoryList from './modules/category'
+import General from './modules/General'
 
 Vue.use(Vuex);
 
@@ -12,6 +14,8 @@ export default new Vuex.Store({
   getters,
   mutations,
   modules:{
-    home
+    home,
+    categoryList,
+    General
   }
 })
